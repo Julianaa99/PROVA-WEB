@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+
+.body {
+    text-align: center;
+    background-color: bisque;
+    color: rgb(131, 87, 29);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.header i {
+    color: white;
+    font-size: 30px;
+}
+
+.header ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header li {
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color;
+}
+
+.section-01 {
+    background-image: url(imagens.01/living-room-1835923_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    text-transform: lowercase;
+}
+
+.p {
+    font-size: 18px;
+    color: black;
+}
+
+.button01 {
+    background-color: rgb(139, 82, 7);
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: rgb(243, 241, 113);
+
+}
+
+.section-02 {
+    background-image: url(imagens.01/cadeiranova.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px;
+}
+
+
+
+.h2 {
+    
+}
+
+.div-moveis {
+
+    box-shadow: rgb(99, 49, 21);
+    background-size: cover;
+    height: 500px;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
